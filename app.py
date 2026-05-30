@@ -88,3 +88,6 @@ def render_genai_assessment_tab():
                     value=f"{len(words[i])} Letters", 
                     delta=f"Word: {words[i]}"
                 )
+
+if __name__ == "__main__":
+    render_genai_assessment_tab()
